@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: min(80rem, 95%);
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.pen{
+      color: #ffffff;
+      padding: 1rem;
+      color: white;
+      background-color: black;
+       border: 1rem solid #FFFFFF;
+
+}
